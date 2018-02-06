@@ -1,0 +1,28 @@
+{
+  "name": "signal-shortcode",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@slack/client": "3.9.0",
+    "async": "^2.3.0",
+    "bluebird": "^3.1.1",
+    "body-parser": "^1.9.2",
+    "contentful": "^4.1.2",
+    "dotenv": "4.0.0",
+    "express": "^4.13.3",
+    "mongoose": "^4.4.14",
+    "node-wit": "4.2.0",
+    "request": "2.81.0",
+    "twilio": "^2.*",
+    "underscore": "^1.8.3",
+    "underscore.string": "3.3.4",
+    "watson-developer-cloud": "*"
+  },
+  "engines": {
+    "node": "4.4.7"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    "admins.json"
+  ],
+  "verbose": true,
+  "execMap": {
+    "js": "node --harmony"
+  }
+}
